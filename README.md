@@ -1,5 +1,5 @@
 # Wallee: AI Assistant
-This project is an AI chat application featuring Wallee; Walle is a fun yet professional AI assistant, powered by Gemini 3 Flash.
+This project is an AI chat application featuring Wallee; Walle is a fun yet professional AI assistant, powered by Google's Gemini 3 Flash.
 
 ## Project Structure
 `/frontend: TypeScript + React + TailwindCSS`
