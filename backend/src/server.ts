@@ -8,7 +8,7 @@ import { type LLMRequestBody } from "@interfaces/types";
 
 
 // SERVER NECESSITITES 
-const PORT = process.env.PORT;
+const PORT = Number(process.env.PORT);
 const API_KEY = process.env.GEMINI_API_KEY;
 const AI = new GoogleGenAI({ apiKey: API_KEY });
 const server = express();
@@ -17,7 +17,7 @@ const server = express();
 
 // MIDDLEWARE
 server.use(cors({
-    origin: ["http://localhost:5173", "http://192.168.2.88:5173/"],
+    origin: "https://walleyai.onrender.com",
 }));
 server.use(express.json());
 const limiter = rateLimit({
@@ -72,4 +72,4 @@ server.post("/api/v1/chat", async (req, res): Promise<object> => {
 
 
 
-server.listen(PORT, () => console.log(`Backend Server: http://localhost:${PORT}/`));
+server.listen(PORT, "0.0.0.1", () => console.log(`Backend Server: http://localhost:${PORT}/`));
