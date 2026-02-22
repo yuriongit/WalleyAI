@@ -1,5 +1,5 @@
-# Wallee: AI Assistant
-This project is an AI chat application featuring Wallee; Walle is a fun yet professional AI assistant, powered by Google's Gemini 3 Flash.
+# Walley: AI Assistant
+This project is an AI chat application featuring Walley; Walle is a fun yet professional AI assistant, powered by Google's Gemini 3 Flash.
 
 ## Project Structure
 `/frontend: TypeScript + React + TailwindCSS`
@@ -10,7 +10,7 @@ This project is an AI chat application featuring Wallee; Walle is a fun yet prof
 1. The user send a prompt
 2. The frontend sends a POST request to the backend
 3. The backend process the POST request
-4. Wallee then processes the user's prompt and sends a response back to the client
+4. Walley then processes the user's prompt and sends a response back to the client
 5. Finally, the client is presented the LLM's response
 
 ## Safety & Security
@@ -24,7 +24,7 @@ ___
 
 
 # Frontend (WIP) 
-A minimalistic frontend for users to interact with Wallee AI. Built with React, TailwindCSS, and TypeScript.
+A minimalistic frontend for users to interact with Walley AI. Built with React, TailwindCSS, and TypeScript.
 ## Setup
 Install
 ```Bash
@@ -40,11 +40,11 @@ bun run dev
 ```
 
 ## Features
-- Real-time Chat: Interactive interface to communicate with Wallee
+- Real-time Chat: Interactive interface to communicate with Walley
 - Markdown Support: AI responses have code highlighting, tables, etc
 - Design: Minimal and clean pastel-yellow themed UI (currently working on layouts for all devices)
 - Error Handling: WIP
-- API Integration: Connects to the Wallee Backend for security and to prevent client abuse
+- API Integration: Connects to the Walley Backend for security and to prevent client abuse
 - Styling: Utilized Tailwind's `@tailwindcss/typography` for the layout
 
 ___
@@ -53,7 +53,7 @@ ___
 ___
 
 # Backend (WIP)
-A simple backend that handles client requests for the Wallee AI assistant. Built with TypeScript, Bun, Express, and Google's Gemini API.
+A simple backend that handles client requests for the Walley AI assistant. Built with TypeScript, Bun, Express, and Google's Gemini API.
 
 
 ## Setup
@@ -90,7 +90,7 @@ Endpoint: ```POST /api/v1/chat```
 
 ## Details
 - Model: `gemini-3-flash-preview`
-- Personalization: A balanced, professional, and playful persona named Wallee
+- Personalization: A balanced, professional, and playful persona named Walley
 - LLM Safety: Enforced `systemInstruction` to prevent engagement with inappropriate content
 - Rate Limiting: 5 requests/30 minutes via `express-rate-limit` package
 - CORS: To ensure secure cross-origin resource sharing

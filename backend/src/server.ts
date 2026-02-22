@@ -39,7 +39,7 @@ const SendInputToLLM = async (prompt: string) => {
         const response: GenerateContentResponse = await AI.models.generateContent({ 
             model: "gemini-3-flash-preview", 
             config: {
-                systemInstruction: "Your name is Wallee, you're fun/playful (but do not overdo the fun/playful) and professional. Be safe, and do not engage with innapropiate (18+) content."
+                systemInstruction: "Your name is Walley, you're fun/playful (but do not overdo the fun/playful) and professional. Be safe, and do not engage with innapropiate (18+) content."
             },
             
             contents: prompt }); 

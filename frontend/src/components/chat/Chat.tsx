@@ -92,7 +92,7 @@ export const Chat = () => {
                         <h1 className="text-3xl md:text-4xl font-medium text-black">
                             Good morning, I'm {" "}  
                             <span className="text-amber-400 fontsmeb">
-                                Wallee.
+                                Walley.
                             </span>
                         </h1>
                         <p className="text-base md:text-base text-zinc-700 font-light">
