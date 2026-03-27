@@ -1,5 +1,5 @@
 # Walley: AI Assistant
-This project is an AI chat application featuring Walley; Walle is a fun yet professional AI assistant, powered by Google's Gemini 3 Flash.
+This project is an AI chat application featuring Walley; Walley is a fun yet professional AI assistant, powered by Google's Gemini 3 Flash.
 
 ## Project Structure
 `/frontend: TypeScript + React + TailwindCSS`
